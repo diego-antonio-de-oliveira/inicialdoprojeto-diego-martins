@@ -24,7 +24,7 @@ else if(hora > 10){
 }
 
 
-
+//mostrando quanto o colaborador ganha por hora
 
 
 return 0;
