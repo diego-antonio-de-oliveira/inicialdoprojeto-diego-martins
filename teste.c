@@ -3,8 +3,8 @@
 
 int main () {
 
-int salario, mes;
-float hora;
+int salario, mes, hora;
+
 
 printf("digite seu salario no mes: ");
 scanf("%d", &salario);
@@ -13,8 +13,15 @@ scanf("%d", &salario);
 
 hora = salario/mes;
 
-printf("o valor da hora e %f", hora);
+printf("o valor da hora e %d", hora);
 
+if (hora <= 10){
+
+printf("\nta ganhando pouco em!\n");
+}
+else if(hora > 10){
+	printf("\nta ganhando bem!");
+}
 
 
 
